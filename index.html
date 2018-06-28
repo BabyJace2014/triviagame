@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    <title>Trivia Game</title>
+</head>
+    <body>
+    <div class="container">
+        <header id="title">
+            Childrens Trivia Game
+        </header>
+        <section id="game-area">
+            <header id="question"></header>
+            <section id="answers"></section>
+            <img id="question-image" src="" alt="question-image">
+            <section id="timer">Time Remaining: <span id="countdown"></span> seconds.</section>
+        </section>
+        <section id="result-area" class="hidden"></section>
+        </section>
+        <section id="end-screen" class="hidden">
+            <h2>Game Over!</h2>
+            <h4 id="right-answers"></h4>
+            <h4 id="wrong-answers"></h4>
+            <h4 id="percent-correct"></h4>
+            <button id="restart-button">Restart Game</button>
+        </section>
+    </div>
+</body>
+</html>
